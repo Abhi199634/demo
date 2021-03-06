@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-19T14:34:48 IST" name="Default suite" finished-at="2021-02-19T14:35:13 IST" duration-ms="25050">
+    <groups>
+    </groups>
+    <test started-at="2021-02-19T14:34:48 IST" name="Default test" finished-at="2021-02-19T14:35:13 IST" duration-ms="25050">
+      <class name="testcases.corousel">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.corousel@1e802ef9]" started-at="2021-02-19T14:34:48 IST" name="initilize" finished-at="2021-02-19T14:34:58 IST" duration-ms="10690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilize -->
+        <test-method signature="fundlink()[pri:0, instance:testcases.corousel@1e802ef9]" started-at="2021-02-19T14:34:58 IST" name="fundlink" finished-at="2021-02-19T14:35:13 IST" duration-ms="14254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fundlink -->
+      </class> <!-- testcases.corousel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
