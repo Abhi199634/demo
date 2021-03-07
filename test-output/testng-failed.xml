@@ -7,17 +7,9 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.Signin">
-        <methods>
-          <include name="initilize"/>
-          <include name="getUrl"/>
-        </methods>
-      </class> <!-- testcases.Signin -->
       <class name="testcases.corousel">
         <methods>
           <include name="initilize"/>
-          <include name="crouseltestforward"/>
-          <include name="crouseltestbackward"/>
           <include name="fundlink"/>
         </methods>
       </class> <!-- testcases.corousel -->
@@ -27,6 +19,12 @@
           <include name="getUrl"/>
         </methods>
       </class> <!-- testcases.signup -->
+      <class name="testcases.Signin">
+        <methods>
+          <include name="initilize"/>
+          <include name="getUrl"/>
+        </methods>
+      </class> <!-- testcases.Signin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
