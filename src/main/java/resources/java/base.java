@@ -1,4 +1,4 @@
-	package resources.java;
+package resources.java;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class base {
 			
-			public WebDriver driver;
+			public static WebDriver driver;
 			public String baseurl="http://lvnew.surge.sh/";
 	
 		public WebDriver initializedriver() throws IOException {
@@ -35,10 +35,11 @@ public class base {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			//return driver;
 			return driver;
+			
 		}
 
 		
-		public void getScreenshot(String result) throws IOException {
+		public void getScreenshot(String result) throws NullPointerException {
 			
 			File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			try {
