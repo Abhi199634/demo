@@ -11,7 +11,7 @@ import resources.java.base;
 
 public class signup extends base{
 	
-	@BeforeTest
+@BeforeTest
 public void initilize() throws IOException {
 		
 		driver= initializedriver();
