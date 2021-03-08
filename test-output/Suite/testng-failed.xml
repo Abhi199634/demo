@@ -10,6 +10,8 @@
       <class name="testcases.corousel">
         <methods>
           <include name="initilize"/>
+          <include name="crouseltestforward"/>
+          <include name="crouseltestbackward"/>
           <include name="fundlink"/>
         </methods>
       </class> <!-- testcases.corousel -->
@@ -17,6 +19,7 @@
         <methods>
           <include name="initilize"/>
           <include name="getUrl"/>
+          <include name="createsignup"/>
         </methods>
       </class> <!-- testcases.signup -->
       <class name="testcases.Signin">

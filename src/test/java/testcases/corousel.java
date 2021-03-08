@@ -47,7 +47,7 @@ public class corousel  extends base{
 		}
 	}
 	
-	@Test()
+	@Test
 	public void fundlink() {
 		
 		driver.get(baseurl);

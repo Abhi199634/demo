@@ -15,7 +15,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class base {
 			
 			public static WebDriver driver;
-			public String baseurl="http://lvnew.surge.sh/";
+			public String baseurl="https://staging.letsventure.com/";
 	
 		public WebDriver initializedriver() throws IOException {
 			

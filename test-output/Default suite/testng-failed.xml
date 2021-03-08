@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.corousel">
+      <class name="testcases.Signin">
         <methods>
           <include name="initilize"/>
-          <include name="fundlink"/>
+          <include name="getUrl"/>
         </methods>
-      </class> <!-- testcases.corousel -->
+      </class> <!-- testcases.Signin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
