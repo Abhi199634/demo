@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="8" passed="2" failed="5" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-08T13:10:20 IST" name="Suite" finished-at="2021-03-08T13:12:10 IST" duration-ms="110791">
+  <suite started-at="2021-03-08T23:25:05 IST" name="Suite" finished-at="2021-03-08T23:27:24 IST" duration-ms="139762">
     <groups>
     </groups>
-    <test started-at="2021-03-08T13:10:20 IST" name="Test" finished-at="2021-03-08T13:12:10 IST" duration-ms="110791">
+    <test started-at="2021-03-08T23:25:05 IST" name="Test" finished-at="2021-03-08T23:27:24 IST" duration-ms="139762">
       <class name="testcases.signup">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T13:10:29 IST" name="initilize" finished-at="2021-03-08T13:10:34 IST" duration-ms="5863" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T23:25:36 IST" name="initilize" finished-at="2021-03-08T23:25:42 IST" duration-ms="5844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="createsignup()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T13:11:16 IST" name="createsignup" finished-at="2021-03-08T13:11:35 IST" duration-ms="18941" status="FAIL">
+        <test-method signature="createsignup()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T23:26:26 IST" name="createsignup" finished-at="2021-03-08T23:26:48 IST" duration-ms="21776" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/header/div/div/nav/div/div/a[5]"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4
 *** Element info: {Using=xpath, value=/html/body/header/div/div/nav/div/div/a[5]}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4
 *** Element info: {Using=xpath, value=/html/body/header/div/div/nav/div/div/a[5]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
@@ -85,7 +85,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createsignup -->
-        <test-method signature="getUrl()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T13:11:35 IST" name="getUrl" finished-at="2021-03-08T13:11:35 IST" duration-ms="9" status="FAIL">
+        <test-method signature="getUrl()[pri:0, instance:testcases.signup@6af93788]" started-at="2021-03-08T23:27:01 IST" name="getUrl" finished-at="2021-03-08T23:27:01 IST" duration-ms="10" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://letsventure.com/signup] but found [https://staging.letsventure.com/startups]]]>
@@ -135,33 +135,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- getUrl -->
       </class> <!-- testcases.signup -->
       <class name="testcases.corousel">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T13:10:26 IST" name="initilize" finished-at="2021-03-08T13:10:29 IST" duration-ms="2472" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T23:25:30 IST" name="initilize" finished-at="2021-03-08T23:25:36 IST" duration-ms="6763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="crouseltestforward()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T13:11:36 IST" name="crouseltestforward" finished-at="2021-03-08T13:11:55 IST" duration-ms="19021" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="crouseltestforward()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T23:27:01 IST" name="crouseltestforward" finished-at="2021-03-08T23:27:12 IST" duration-ms="11433" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/div/div/div[2]/a[2]/span[1]"}
+              <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
   (Session info: chrome=88.0.4324.190)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70
-*** Element info: {Using=xpath, value=/html/body/section[1]/div/div/div[2]/a[2]/span[1]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/section[1]/div/div/div[2]/a[2]/span[1]"}
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
   (Session info: chrome=88.0.4324.190)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70
-*** Element info: {Using=xpath, value=/html/body/section[1]/div/div/div[2]/a[2]/span[1]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -173,12 +169,9 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at pageObjects.landingpage.next(landingpage.java:37)
-at testcases.corousel.crouseltestforward(corousel.java:33)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+at testcases.corousel.crouseltestforward(corousel.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -209,11 +202,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crouseltestforward -->
-        <test-method signature="crouseltestbackward()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T13:11:59 IST" name="crouseltestbackward" finished-at="2021-03-08T13:11:59 IST" depends-on-methods="testcases.corousel.crouseltestforward" duration-ms="0" status="SKIP">
+        <test-method signature="crouseltestbackward()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T23:27:13 IST" name="crouseltestbackward" finished-at="2021-03-08T23:27:13 IST" depends-on-methods="testcases.corousel.crouseltestforward" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
               <![CDATA[Method corousel.crouseltestbackward()[pri:0, instance:testcases.corousel@ef9296d] depends on not successfully finished methods]]>
@@ -245,7 +238,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crouseltestbackward -->
-        <test-method signature="fundlink()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T13:11:59 IST" name="fundlink" finished-at="2021-03-08T13:12:09 IST" duration-ms="9967" status="FAIL">
+        <test-method signature="fundlink()[pri:0, instance:testcases.corousel@ef9296d]" started-at="2021-03-08T23:27:13 IST" name="fundlink" finished-at="2021-03-08T23:27:24 IST" duration-ms="10224" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[unknown error: failed to change window state to 'normal', current state is 'maximized'
@@ -253,8 +246,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: unknown error: failed to change window state to 'normal', current state is 'maximized'
@@ -262,8 +255,8 @@ Session ID: 9bd8792fdf242e5d20dd5459e84aea70]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-VOS5FRST', ip: '192.168.43.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9bd8792fdf242e5d20dd5459e84aea70
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.190, chrome: {chromedriverVersion: 88.0.4324.27 (6347fe8bf1e48..., userDataDir: C:\Users\ABHISH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58540}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f634608a6f2664cea677aab3a9f21e4
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -314,15 +307,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- fundlink -->
       </class> <!-- testcases.corousel -->
       <class name="testcases.Signin">
-        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T13:10:20 IST" name="initilize" finished-at="2021-03-08T13:10:26 IST" duration-ms="6529" status="PASS">
+        <test-method is-config="true" signature="initilize()[pri:0, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T23:25:05 IST" name="initilize" finished-at="2021-03-08T23:25:30 IST" duration-ms="25103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initilize -->
-        <test-method signature="basepageNavigation()[pri:1, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T13:10:34 IST" name="basepageNavigation" finished-at="2021-03-08T13:11:00 IST" duration-ms="25131" status="PASS">
+        <test-method signature="basepageNavigation()[pri:1, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T23:25:43 IST" name="basepageNavigation" finished-at="2021-03-08T23:26:04 IST" duration-ms="21317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basepageNavigation -->
-        <test-method signature="getUrl()[pri:2, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T13:11:00 IST" name="getUrl" finished-at="2021-03-08T13:11:00 IST" duration-ms="20" status="FAIL">
+        <test-method signature="getUrl()[pri:2, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T23:26:04 IST" name="getUrl" finished-at="2021-03-08T23:26:05 IST" duration-ms="169" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://letsventure.com/join] but found [https://staging.letsventure.com/signin]]]>
@@ -370,7 +363,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUrl -->
-        <test-method signature="signin()[pri:3, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T13:11:00 IST" name="signin" finished-at="2021-03-08T13:11:16 IST" duration-ms="15590" status="PASS">
+        <test-method signature="signin()[pri:3, instance:testcases.Signin@2f7c2f4f]" started-at="2021-03-08T23:26:06 IST" name="signin" finished-at="2021-03-08T23:26:26 IST" duration-ms="19829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signin -->
