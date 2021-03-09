@@ -25,6 +25,8 @@
       <class name="testcases.Signin">
         <methods>
           <include name="initilize"/>
+          <include name="basepageNavigation"/>
+          <include name="signin"/>
           <include name="getUrl"/>
         </methods>
       </class> <!-- testcases.Signin -->

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 10, Time elapsed: 1.293 s <<< FAILURE! - in TestSuite
+initilize(testcases.Signin)  Time elapsed: 0.581 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\eclipse-workspace\Venture\src\main\java\Automation\Venture\data.properties (The system cannot find the path specified)
+	at testcases.Signin.initilize(Signin.java:19)
+
